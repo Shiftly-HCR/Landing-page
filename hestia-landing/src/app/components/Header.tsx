@@ -1,4 +1,4 @@
-import { Flame, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 
 export default function Header() {
   return (
