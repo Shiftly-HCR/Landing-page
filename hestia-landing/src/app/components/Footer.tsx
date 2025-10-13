@@ -7,8 +7,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Flame className="w-8 h-8 text-[#FF5900]" />
-              <span className="text-2xl font-bold">Hestia</span>
+              <img
+                src="/logo-hestia.png"
+                alt="Hestia Logo"
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-gray-400 text-lg mb-6 italic">
               Hospitalité. Fiabilité. Liberté.

@@ -6,8 +6,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <Flame className="w-8 h-8 text-[#FF5900]" />
-            <span className="text-2xl font-bold text-gray-900">Hestia</span>
+            <img
+              src="/logo-hestia.png"
+              alt="Hestia Logo"
+              className="h-10 w-auto"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
