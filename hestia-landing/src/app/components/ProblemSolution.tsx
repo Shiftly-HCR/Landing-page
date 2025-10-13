@@ -27,7 +27,7 @@ export default function ProblemSolution() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Le recrutement HCR n'a jamais été aussi fluide.
+            Le recrutement HCR n&apos;a jamais été aussi fluide.
           </h2>
         </div>
 

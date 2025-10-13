@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-              La nouvelle façon de recruter dans l'
+              La nouvelle façon de recruter dans l&apos;
               <span className="text-[#FF5900]">Hôtellerie-Restauration</span>
             </h1>
 
