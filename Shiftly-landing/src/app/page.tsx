@@ -11,7 +11,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#FFFFFF]">
+    <div className="min-h-screen bg-[#fcfaf7]">
       <Header />
       <Hero />
       <ProblemSolution />

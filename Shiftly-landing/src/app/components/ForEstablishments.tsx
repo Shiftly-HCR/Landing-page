@@ -39,7 +39,7 @@ export default function ForEstablishments() {
   return (
     <section
       id="etablissements"
-      className="py-24 px-4 sm:px-6 lg:px-8 bg-white"
+      className="py-24 px-4 sm:px-6 lg:px-8 bg-[#fcfaf7]"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -47,40 +47,40 @@ export default function ForEstablishments() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="flex gap-4 p-6 rounded-xl bg-gray-50 hover:bg-gradient-to-r hover:from-[#CC9933]/10 hover:to-[#FF5900]/10 border border-transparent hover:border-[#CC9933] hover:shadow-lg transition-all duration-300 group"
+                className="flex gap-4 p-6 rounded-xl bg-[#bdaaa1]/20 hover:bg-gradient-to-r hover:from-[#cc9933]/10 hover:to-[#782478]/10 border border-transparent hover:border-[#cc9933] hover:shadow-lg transition-all duration-300 group"
               >
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-lg bg-[#CC9933]/10 flex items-center justify-center group-hover:bg-[#CC9933] transition-colors">
-                    <feature.icon className="w-6 h-6 text-[#CC9933] group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-lg bg-[#cc9933]/10 flex items-center justify-center group-hover:bg-[#cc9933] transition-colors">
+                    <feature.icon className="w-6 h-6 text-[#cc9933] group-hover:text-[#fcfaf7] transition-colors" />
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  <h3 className="text-lg font-bold text-[#4c114f] mb-2">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600">{feature.description}</p>
+                  <p className="text-[#503342]">{feature.description}</p>
                 </div>
               </div>
             ))}
           </div>
 
           <div className="order-1 lg:order-2">
-            <div className="inline-block px-4 py-2 bg-[#CC9933]/10 rounded-full mb-6">
-              <span className="text-[#CC9933] font-semibold">
+            <div className="inline-block px-4 py-2 bg-[#cc9933]/10 rounded-full mb-6">
+              <span className="text-[#cc9933] font-semibold">
                 Pour les établissements
               </span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl sm:text-5xl font-bold text-[#4c114f] mb-6">
               Constituez vos équipes en un instant.
             </h2>
 
-            <p className="text-xl text-gray-600 mb-12 leading-relaxed">
+            <p className="text-xl text-[#503342] mb-12 leading-relaxed">
               Accédez à un vivier de talents qualifiés, constituez vos équipes
               rapidement et pilotez vos recrutements efficacement.
             </p>
 
-            <button className="group px-8 py-4 bg-[#CC9933] text-white rounded-lg hover:bg-[#FF5900] transition-all transform hover:scale-105 flex items-center gap-2 font-semibold text-lg">
+            <button className="group px-8 py-4 bg-[#cc9933] text-[#fcfaf7] rounded-lg hover:bg-[#782478] transition-all transform hover:scale-105 flex items-center gap-2 font-semibold text-lg">
               Essayer Shiftly Entreprise
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
